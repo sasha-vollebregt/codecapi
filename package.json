@@ -1,13 +1,15 @@
 {
   "name": "codecapi",
   "scripts": {
-    "dev": "nuxt",
+    "dev": "npm run open-browser && nuxt",
     "build": "nuxt build",
     "generate": "nuxt generate",
-    "start": "nuxt start"
+    "open-browser": "start http://localhost:3000",
+    "start": "npm run build && npm run open-browser && nuxt start"
   },
   "dependencies": {
     "bootstrap-vue": "^2.21.2",
-    "nuxt": "^2.15.8"
+    "nuxt": "^2.15.8",
+    "open": "^8.2.1"
   }
 }
