@@ -5,7 +5,8 @@
     "build": "nuxt build",
     "generate": "nuxt generate",
     "open-browser": "start http://localhost:3000",
-    "start": "npm run build && npm run open-browser && nuxt start"
+    "start-prod": "npm run build && npm run open-browser && nuxt start",
+    "start": "npm run build && nuxt start"
   },
   "dependencies": {
     "bootstrap-vue": "^2.21.2",
