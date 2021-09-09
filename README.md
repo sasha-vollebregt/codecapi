@@ -21,5 +21,5 @@ winpty docker run -it -p 5000:5000 codecapi
 docker ps
 ```
 
-# check on browser
+# check docker on browser
 http://localhost:5000/
